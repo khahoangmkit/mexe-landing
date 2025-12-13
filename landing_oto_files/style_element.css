@@ -2097,7 +2097,7 @@
     }
 
     #LINE418 {
-        width: 960px;
+        max-width: 960px;
         top: 284px;
         left: 0px;
     }
