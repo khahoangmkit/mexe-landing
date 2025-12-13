@@ -95,6 +95,25 @@
     border-radius: 103px;
 }
 
+
+.partner-logos-container {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-wrap: wrap; /* Cho phép xuống dòng */
+    justify-content: center; /* Căn giữa các logo */
+    align-items: center;
+    gap: 12px; /* Khoảng cách giữa các logo */
+    max-width: 960px;
+    margin: 20px auto 0; /* Căn giữa và tạo khoảng cách với tiêu đề */
+}
+
+.partner-logo-item img {
+    max-width: 150px; /* Chiều rộng tối đa của logo */
+    height: auto;
+}
+
+
 @media (min-width: 768px) {
     #SECTION_POPUP {
         height: 0px;
@@ -314,7 +333,7 @@
     }
 
     #SECTION55 {
-        height: 500px;
+        height: 550px;
     }
 
     #SECTION55 > .ladi-section-background {
@@ -913,7 +932,7 @@
         height: 305.551px;
         top: -44.551px;
         left: 0px;
-        background-image: url("./images/MXlab Logo-01.jpg");
+        background-image: url("./images/congdong.png");
     }
 
     #IMAGE120 > .ladi-image {
@@ -953,7 +972,7 @@
     }
 
     #SECTION123 {
-        height: 423.9px;
+        height: 320px;
     }
 
     #SECTION123 > .ladi-overlay {
@@ -972,7 +991,7 @@
 
     #HEADLINE124 {
         width: 456px;
-        top: 54.423px;
+        top: 36px;
         left: 252px;
     }
 
@@ -1206,12 +1225,7 @@
         line-height: 1.6;
     }
 
-    #GROUP144 {
-        width: 175px;
-        height: 177.204px;
-        top: 167.475px;
-        left: 716px;
-    }
+
 
     #BOX145 {
         width: 94.25px;
@@ -1499,7 +1513,7 @@
 
     #BOX301 {
         width: 360px;
-        height: 494.4px;
+        height: 320px;
         top: 0px;
         left: 0px;
     }
@@ -1589,7 +1603,7 @@
     #FORM308 {
         width: 280.47px;
         height: 192px;
-        top: 226.45px;
+        top: 100px;
         left: 40.062px;
     }
 
@@ -2124,7 +2138,7 @@
     #BOX447 {
         width: 904px;
         height: 179px;
-        top: 171px;
+        top: 130px;
         left: 28px;
     }
 
@@ -2156,7 +2170,6 @@
     }
 
     #HEADLINE450 {
-        width: 364px;
         top: 64px;
         left: 91.972px;
     }
@@ -2172,7 +2185,7 @@
     #GROUP451 {
         width: 173px;
         height: 79.05px;
-        top: 214.45px;
+        top: 180px;
         left: 61.915px;
     }
 
@@ -2191,8 +2204,8 @@
 
     #HEADLINE453 {
         width: 150px;
-        top: 58.05px;
-        left: 0px;
+        top: 50px;
+        left: 18px;
     }
 
     #HEADLINE453 > .ladi-headline {
@@ -2216,7 +2229,7 @@
     #GROUP455 {
         width: 173px;
         height: 80.05px;
-        top: 214.45px;
+        top: 180px;
         left: 281.305px;
     }
 
@@ -2235,8 +2248,8 @@
 
     #HEADLINE457 {
         width: 150px;
-        top: 58.05px;
-        left: 0px;
+        top: 50px;
+        left: 18px;
     }
 
     #HEADLINE457 > .ladi-headline {
@@ -2260,7 +2273,7 @@
     #GROUP459 {
         width: 164px;
         height: 80.05px;
-        top: 214.45px;
+        top: 180px;
         left: 500.695px;
     }
 
@@ -2279,8 +2292,8 @@
 
     #HEADLINE461 {
         width: 150px;
-        top: 58.05px;
-        left: 0px;
+        top: 50px;
+        left: 18px;
     }
 
     #HEADLINE461 > .ladi-headline {
@@ -2304,7 +2317,7 @@
     #GROUP463 {
         width: 181px;
         height: 79.05px;
-        top: 214.45px;
+        top: 180px;
         left: 720.085px;
     }
 
@@ -2323,8 +2336,8 @@
 
     #HEADLINE465 {
         width: 150px;
-        top: 58.05px;
-        left: 0px;
+        top: 50px;
+        left: 18px;
     }
 
     #HEADLINE465 > .ladi-headline {
@@ -2618,7 +2631,7 @@
     }
 
     #SECTION55 {
-        height: 748.981px;
+        height: 850px;
     }
 
     #SECTION55 > .ladi-section-background {
@@ -2707,7 +2720,7 @@
     #SHAPE65 {
         width: 21.3431px;
         height: 25.9533px;
-        top: 0.659439px;
+        top: 130px;
         left: 0px;
     }
 
@@ -2718,7 +2731,7 @@
     #SHAPE66 {
         width: 25.814px;
         height: 25.8141px;
-        top: 0px;
+        top: 130px;
         left: 30.8865px;
     }
 
@@ -2729,7 +2742,7 @@
     #SHAPE67 {
         width: 22.5048px;
         height: 27.7806px;
-        top: 0px;
+        top: 130px;
         left: 66.0243px;
     }
 
@@ -2899,6 +2912,7 @@
     }
 
     #GROUP92 {
+        padding: 0 20px;
         width: 1196px;
         height: 238.8px;
         top: 1052.16px;
@@ -3216,7 +3230,7 @@
         height: 632.406px;
         top: -130px;
         left: 0px;
-        background-image: url("https://w.ladicdn.com/s750x950/57b167c9ca57d39c18a1c57c/zmmicame20200407073223.jpg");
+        background-image: url("./images/congdong.png");
     }
 
     #IMAGE120 > .ladi-image {
@@ -3892,7 +3906,7 @@
     #FORM308 {
         width: 280.47px;
         height: 192px;
-        top: 226.45px;
+        top: 100px;
         left: 40.062px;
     }
 
@@ -4427,7 +4441,7 @@
     #BOX447 {
         width: 400px;
         height: 264.204px;
-        top: 249px;
+        top: 130px;
         left: -585px;
     }
 
@@ -4459,7 +4473,6 @@
     }
 
     #HEADLINE450 {
-        width: 364px;
         top: 41px;
         left: 50px;
     }
@@ -4701,4 +4714,8 @@
         height: 100%;
         padding: 0px 8px;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
