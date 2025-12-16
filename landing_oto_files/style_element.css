@@ -124,12 +124,12 @@
     }
 
     #SECTION25 > .ladi-overlay {
-        background-color: #021834;
+        background-color: #ededed;
         opacity: 0.9;
     }
 
     #SECTION25 > .ladi-section-background {
-        background-color: #04061f;
+        background-color: #ededed;
     }
 
 
@@ -141,7 +141,7 @@
     }
 
     #BOX28 > .ladi-box {
-        background-color: #0d1e4a;
+        background-color: #ededed;
     }
 
     #BOX29 {
@@ -174,7 +174,7 @@
     }
 
     #HEADLINE31 > .ladi-headline {
-        color: rgb(229, 229, 229);
+        color: #444479;
         font-size: 42px;
         font-weight: bold;
         text-align: right;
@@ -188,7 +188,7 @@
     }
 
     #PARAGRAPH32 > .ladi-paragraph {
-        color: rgb(229, 229, 229);
+        color: #444479;
         font-size: 14px;
         text-align: right;
         line-height: 1.6;
@@ -241,8 +241,9 @@
     #IMAGE36 {
         width: 240px;
         height: 68.7602px;
-        top: 32.672px;
-        left: 409.687px;
+        top: 32px;
+        left: 0px;
+        z-index: 9;
     }
 
     #IMAGE36 > .ladi-image > .ladi-image-background {
@@ -268,7 +269,7 @@
     }
 
     #BOX38 > .ladi-box {
-        background-color: #0d1e4a;
+        background-color: #fff;
     }
 
     #BOX39 {
