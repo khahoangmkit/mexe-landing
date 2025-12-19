@@ -134,11 +134,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 310px;
+    height: 200px;
+    overflow: hidden;
 }
 
 .mx-partner-grid__item img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
 }
 
@@ -280,19 +284,15 @@
     }
 
     #IMAGE36 {
-        width: 240px;
-        height: 68.7602px;
+        width: 300px;
+        height: 100px;
         top: 32px;
         left: 0px;
         z-index: 9;
     }
 
-    #IMAGE36 > .ladi-image > .ladi-image-background {
-        width: 240px;
-        height: 68.7602px;
-        top: -1px;
-        left: 0px;
-        background-image: url("./images/MXlab-Logo-01.webp");
+    #IMAGE36 > .ladi-image > img  {
+        width: 300px;
     }
 
     #GROUP37 {
@@ -462,8 +462,8 @@
     }
 
     #SHAPE65 {
-        width: 23.8785px;
-        height: 29.0364px;
+        width: 36px;
+        height: 36px;
         top: 2.73778px;
         left: 0px;
     }
@@ -473,10 +473,10 @@
     }
 
     #SHAPE66 {
-        width: 28.8805px;
-        height: 28.8807px;
+        width: 36px;
+        height: 36px;
         top: 2px;
-        left: 38.7128px;
+        left: 50px;
     }
 
     #SHAPE66 svg:last-child {
@@ -484,10 +484,10 @@
     }
 
     #SHAPE67 {
-        width: 35.1909px;
-        height: 35.0807px;
+        width: 36px;
+        height: 36px;
         top: 0px;
-        left: 79.1817px;
+        left: 100px;
     }
 
     #SHAPE67 svg:last-child {
@@ -2465,12 +2465,12 @@
     }
 
     #SECTION25 > .ladi-overlay {
-        background-color: #021834;
+        background-color: #ededed;
         opacity: 0.4;
     }
 
     #SECTION25 > .ladi-section-background {
-        background-color: #04061f;
+        background-color: #ededed;
     }
 
     #BOX28 {
@@ -2514,7 +2514,7 @@
     }
 
     #HEADLINE31 > .ladi-headline {
-        color: rgb(229, 229, 229);
+        color: #444479;
         font-size: 42px;
         font-weight: bold;
         text-align: center;
@@ -2528,7 +2528,7 @@
     }
 
     #PARAGRAPH32 > .ladi-paragraph {
-        color: rgb(229, 229, 229);
+        color: #444479;
         font-size: 14px;
         text-align: center;
         line-height: 1.6;
@@ -2579,18 +2579,15 @@
     }
 
     #IMAGE36 {
-        width: 120px;
-        height: 34.3801px;
-        top: 26.605px;
-        left: 150px;
+        width: 240px;
+        height: 80px;
+        top: 16px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
-    #IMAGE36 > .ladi-image > .ladi-image-background {
-        width: 120px;
-        height: 34.3801px;
-        top: 0px;
-        left: 0px;
-        background-image: url("./images/MXlab Logo-01.jpg");
+    #IMAGE36 > .ladi-image > img {
+        width: 240px;
     }
 
     #GROUP37 {
@@ -2760,8 +2757,8 @@
     }
 
     #SHAPE65 {
-        width: 21.3431px;
-        height: 25.9533px;
+        width: 36px;
+        height: 36px;
         top: 130px;
         left: 0px;
     }
@@ -2771,10 +2768,10 @@
     }
 
     #SHAPE66 {
-        width: 25.814px;
-        height: 25.8141px;
+        width: 36px;
+        height: 36px;
         top: 130px;
-        left: 30.8865px;
+        left: 50px;
     }
 
     #SHAPE66 svg:last-child {
@@ -2782,10 +2779,10 @@
     }
 
     #SHAPE67 {
-        width: 22.5048px;
-        height: 27.7806px;
+        width: 36px;
+        height: 36px;
         top: 130px;
-        left: 66.0243px;
+        left: 100px;
     }
 
     #SHAPE67 svg:last-child {
